@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+
+header{
+    
+    height: 85px;
+    border-radius: 15px;
+    
+    
+    
+}
+
+.container_logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+
+.container_nombre h1{
+    float: left;
+    margin-top: 40px;
+    font-size: 12px;
+    
+}
+
+
+nav{
+    float: right;
+    margin-top: 40px;
+    padding-right: 10px;
+}
+
+nav a{
+    
+    padding: 5px;
+    display: inline;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: blueviolet;
+
+}
+
+/*Seccion principal*/
+
+
+
+.seccion_imagen_principal{
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1100px;
+    clear: both;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.seccion_imagen_principal img{
+    height: 150px;
+    width: 100%;
+    
+    
+
+ }
+
+ /*Seccion de informacion*/
+ 
+
+ .seccion_informacion{
+    padding-left: 10%;
+    padding-right: 10%;;
+    max-width: 1100px;
+    
+
+ }
+
+
+
+ .container_estudiante{
+    float: left;
+
+
+ }
+
+
+ .container_informacion{
+    float: right;
+
+ }
+
+
+ .imagen_representativa{
+    margin-top: 50px;
+    clear: both;
+ }
+
+
+ 
