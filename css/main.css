@@ -7,8 +7,9 @@
 
 header{
     
-    height: 85px;
-    border-radius: 15px;
+    height: 115px;
+    
+    background-color: black;
     
     
     
@@ -22,28 +23,31 @@ header{
 }
 
 .container_nombre h1{
+    color: white;
+    text-align: center;
     float: left;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 12px;
     
 }
 
 
 nav{
+    
     float: right;
-    margin-top: 40px;
-    padding-right: 10px;
+    margin-top: 50px;
+    padding-right: 25px;
 }
 
 nav a{
-    
+    color: white;
     padding: 5px;
     display: inline;
     text-decoration: none;
 
 }
 nav a:hover{
-    color: blueviolet;
+    color: brown;
 
 }
 
@@ -52,30 +56,69 @@ nav a:hover{
 
 
 .seccion_imagen_principal{
-    padding-left: 10%;
-    padding-right: 10%;
-    max-width: 1100px;
+    position: relative;
+    
+    
+    height: 350px;
     clear: both;
-    margin-bottom: 50px;
+    
+    background-color: black;
+   
     
     
     
 }
+
+.titulo_principal{
+    
+    width: 400px;
+    
+    color: white;
+    
+    
+    top: 18%;
+    
+    left: 34%;
+    
+    position: absolute;
+}
+
+.titulo_principal h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.titulo_principal p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
 .seccion_imagen_principal img{
-    height: 150px;
+    height: 100%;
     width: 100%;
     
     
 
  }
 
+ 
+
+
+
  /*Seccion de informacion*/
  
 
  .seccion_informacion{
+    align-items: center;
+    background-color: black;
+    padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;;
+    padding-bottom: 50px;
     max-width: 1100px;
+    height: 250px;
+    
     
 
  }
@@ -84,21 +127,92 @@ nav a:hover{
 
  .container_estudiante{
     float: left;
+    width: 300px;
 
 
+ }
+
+ .container_estudiante img{
+ width: 100%;
  }
 
 
  .container_informacion{
     float: right;
+    text-align: left;
+    height: 100%;
+    width: 60%;
+   
+    
+    
+    background-color: brown;
+    border-radius: 12px;
+    border: 2px solid black;
 
  }
+ 
+ 
+ .container_informacion p{
+    padding-left: 10px;
+    padding-top: 30px;
+    color: white;
+    
+    
+    
+ }
+
+
+ .seccion_imagen_representativa{
+    height: 350px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear: both;
+ }
+
+
 
 
  .imagen_representativa{
-    margin-top: 50px;
-    clear: both;
+    margin-top: 60px;
+    height: 250px;
+    width: 250px;
+    
  }
+
+ .imagen_representativa2{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    height: 250px;
+    width: 250px;
+    
+ }
+
+
+ /*Footer*/
+
+ footer{
+    text-align: center;
+    height: 115px;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+ }
+
+ footer img{
+    float: left;
+    width: 150px;
+    height: auto;
+ }
+
+ .desarrollador{
+    font-size: 12px;
+    padding-top: 57px;
+    padding-right: 150px;
+ }
+ 
+
+
 
 
  
