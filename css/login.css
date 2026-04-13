@@ -1,5 +1,6 @@
 
 .seccion_login{
+    padding-top: 10px;
     background-color: white;
     height: 500px;
     
@@ -19,7 +20,7 @@
     
 
 .container_login h1{
-    color: white;
+    color: brown;
     font-size: 60px;
     
     padding-top: 50px;
