@@ -1,0 +1,61 @@
+
+.seccion_login{
+    background-color: white;
+    height: 500px;
+    
+    
+}
+
+.container_login{
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 800px;
+    height: 420px;
+    background-color: black;
+       }
+   
+    
+
+.container_login h1{
+    color: white;
+    font-size: 60px;
+    
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container_login form{
+    padding-left: 220px;
+}
+
+
+.titulo_input{
+    color: white;
+    font-size: 36px;
+    padding: 10px;
+}
+
+
+.input{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.boton{
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    width: auto;
+    
+    margin-top: 20px;
+    margin-right: 220px;
+}
+
+.boton:hover{
+    background-color: brown
+}

@@ -3,49 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Iniciar Sesion</title>
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <p>Fast Motor</p>
+        <div class="container_logo">
+        <a href="index.html"><img  src="imagenes/xd.PNG" alt=""></a>
+        </div>
+        <div class="container_nombre">
+        <h1>Fast Motor</h1>
+        </div>
+        <nav>
+        
+            <a href="login.html">Iniciar sesion</a>
+            <a href="">Galeria</a>
+            
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="">Iniciar sesion</a></li>
-            <li><a href="">Registrarse</a></li>
-            
-            
-        </ul>
-    </nav>
-
     <main>
-        <section>
-        <figure>
-            <img src="" alt="">
-        </figure>
+
+        <section class="seccion_imagen_principal">
+         
+            <img  src="imagenes/repuestos.jpg" alt="">
+            <div class="titulo_principal">
+            <h1>Fast Motor</h1>
+            <p>Calidad que pone tu auto en marcha.</p>
+            </div>
         </section>
 
-        <section>
-            <article>
+        <section class="seccion_login">
+            <div class="container_login">
                 <h1>Iniciar Sesion</h1>
                 <form action="">
-                    <p>Email</p>
-                    <input type="text" placeholder="Email">
+                    <p class="titulo_input">Email</p>
+                    <input class="input" type="text" >
                     <br>
-                    <p>Contraseña</p>
-                    <input type="text">
+                    <p class="titulo_input">Contraseña</p>
+                    <input class="input" type="text">
+                    <br>
                     <center>
-                        <input class="boton" type="submit" value="login" />
+                    <input class="boton" type="submit" value="Ingresar" />
                     </center>
                 </form>
-            </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <strong>Fast Motor</strong>
+        <img  src="imagenes/xd.PNG" alt="Logo de footer">
+        <div class="desarrollador">
+        <strong>Desarrollador: Juan Cristobál Hayden</strong>
+        </div>
     </footer>
     
 </body>
