@@ -210,6 +210,114 @@ nav a:hover{
     padding-top: 57px;
     padding-right: 150px;
  }
+
+
+ @media screen and (max-width: 800px){
+
+    header{
+        height: auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .container_logo img{
+        float: none;
+        display: block;
+        margin:  auto;
+    }
+
+    .container_nombre h1{
+
+        float: none;
+        
+        text-align: center;
+        margin: 0;
+    }
+
+    nav{
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+        padding-right: 0;
+
+    }
+
+    /*Seccion principal*/
+
+    .seccion_imagen_principal{
+
+        height: 250px;
+    }
+
+    .titulo_principal{
+        width: 90%;
+        left: 5%;
+        top: 20%;
+    }
+
+    .titulo_principal h1{
+        font-size: 35px;
+    }
+
+    /*Seccion Informacin*/
+
+    .seccion_informacion{
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container_estudiante{
+        float: none;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .container_informacion{
+        float: none;
+        width: 100%;
+        
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    /*Seccion Imagenes*/
+
+    .seccion_imagen_representativa{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imagen_representativa, .imagen_representativa2{
+        display: block;
+        width: 60%;
+        height: auto;
+        margin: 40px auto;
+        padding: 0;
+    }
+
+    
+    /*Footer*/
+
+    footer{
+        height: auto;
+    
+    }
+
+    footer img{
+        float: none;
+        display: block;
+    }
+
+    .desarrollador{
+
+        padding-top: 10px;
+        
+    }
+    
+ }
  
 
 
