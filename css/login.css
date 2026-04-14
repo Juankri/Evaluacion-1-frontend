@@ -8,8 +8,9 @@
 }
 
 .container_login{
+    
     margin-top: 50px;
-    margin-left: 20%;
+    margin-left: 19%;
     border-radius: 12px;
     border: 2px solid black;
     width: 800px;
@@ -22,13 +23,13 @@
 .container_login h1{
     color: brown;
     font-size: 60px;
-    
+    padding-right: 13px;
     padding-top: 50px;
     text-align: center;
 }
 
 .container_login form{
-    padding-left: 220px;
+    padding-left: 207px;
 }
 
 
