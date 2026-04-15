@@ -76,9 +76,9 @@ nav a:hover{
     color: white;
     
     
-    top: 18%;
-    
-    left: 34%;
+    width: 90%;
+    left: 5%;
+    top: 20%;
     
     position: absolute;
 }
@@ -110,14 +110,14 @@ nav a:hover{
  
 
  .seccion_informacion{
-    align-items: center;
+    
     background-color: black;
     padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;;
     padding-bottom: 50px;
-    max-width: 1100px;
-    height: 250px;
+    
+    height: auto;
     
     
 
@@ -133,15 +133,18 @@ nav a:hover{
  }
 
  .container_estudiante img{
- width: 100%;
+    max-height: 300px;
+    width: 90%;
  }
 
 
  .container_informacion{
     float: right;
     text-align: left;
-    height: 100%;
+    height: auto;
     width: 60%;
+    margin-top: 35px;
+    padding-bottom: 30px;
    
     
     
@@ -192,6 +195,7 @@ nav a:hover{
  /*Footer*/
 
  footer{
+    clear: both;
     text-align: center;
     height: 115px;
     max-width: 100%;
@@ -269,17 +273,23 @@ nav a:hover{
 
     .container_estudiante{
         float: none;
-        width: 80%;
+        width: 50%;
         margin: auto;
 
     }
 
+    .container_estudiante img{
+        max-height: 400px;
+        display: block;
+    }
+
     .container_informacion{
         float: none;
-        width: 100%;
-        
+        width: auto;
+        margin-top: 20px;
         height: auto;
         padding-bottom: 20px;
+        
     }
 
     /*Seccion Imagenes*/
@@ -314,12 +324,36 @@ nav a:hover{
     .desarrollador{
 
         padding-top: 10px;
+        padding-bottom: 40px;
+        padding-right: 0;
         
     }
     
  }
  
+@media screen and (max-width: 950px){
+    .seccion_informacion{
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
+    .container_estudiante{
+        float: none;
+        width: 45%;
+        margin: auto;
+
+    }
+
+    .container_informacion{
+        float: none;
+        width: auto;
+        margin-top: 20px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+}
 
 
 
